@@ -9,9 +9,11 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Shaders/OilPaint.shader" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ScreenShotHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/LoadTextureFromURL.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/TakeScreenShot.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1voLRlYQYoBsmlAGRBJHqyDxEGg" />
@@ -32,7 +34,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627223489232</updated>
-      <workItem from="1627223495571" duration="3680000" />
+      <workItem from="1627223495571" duration="3704000" />
+      <workItem from="1627229925506" duration="388000" />
     </task>
     <servers />
   </component>

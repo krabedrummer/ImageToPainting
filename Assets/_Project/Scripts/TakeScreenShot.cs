@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
-using OilPaint_JayeMoore;
 using UnityEngine;
 
-namespace OilPaint_JayeMoore
+namespace ImageToPainting_JayeMoore
 {
     public class TakeScreenShot : MonoBehaviour
     {
         public void takeShot()
         {
-            ScreenShotHandler.TakeScreenShot_Static(2048, 2048);
+            ScreenShotHandler.TakeScreenShot_Static(2048, 2048); //take sc of 2048 x 2048
         }
     }
 }

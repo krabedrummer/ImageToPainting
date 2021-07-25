@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace OilPaint_JayeMoore
+namespace ImageToPainting_JayeMoore
 {
     public class GameManager : MonoBehaviour
     {

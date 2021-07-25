@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace OilPaint_JayeMoore
+namespace ImageToPainting_JayeMoore
 {
     public class ScreenShotHandler : MonoBehaviour
     {
@@ -14,20 +14,14 @@ namespace OilPaint_JayeMoore
 
         private bool takeScreenShotOnNextFrame;
         
-        //[SerializeField] private Text saveMessage;
-    
-        
         void Awake()
         {
             instance = this;
             myCamera = gameObject.GetComponent<Camera>();
-           // saveMessage = GetComponent<Text>();
+           
         }
 
-        void Start()
-        {
-           // saveMessage.enabled = false;
-        }
+       
 
         private void OnPostRender()
         {
@@ -46,7 +40,7 @@ namespace OilPaint_JayeMoore
                 Debug.Log("Saved camera screenshot");
                 RenderTexture.ReleaseTemporary(renderTexture);
                 myCamera.targetTexture = null;
-                //saveMessage.enabled = true;
+                
             }
         
         }
@@ -62,11 +56,7 @@ namespace OilPaint_JayeMoore
             instance.TakeScreenShot(width, height);
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+       
     }
 }
 

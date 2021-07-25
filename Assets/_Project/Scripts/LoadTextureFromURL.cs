@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-namespace OilPaint_JayeMoore
+namespace ImageToPainting_JayeMoore
 {
     public class LoadTextureFromURL : MonoBehaviour
     {

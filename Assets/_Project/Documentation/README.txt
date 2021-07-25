@@ -1,5 +1,7 @@
 README:
 
+This projects is a System or Tool that loads an image from the internet, applies a custom Oil Paint Shader, allows the user to adjust the desired amount of paint strokes, then saves the image to the Desktop.
+
 Convert an Image from the Web into a painting.
 
 Type or paste a URL for an image in the Input Field.
