@@ -11,56 +11,38 @@ namespace OilPaint_JayeMoore
         
         float value; //slider value
         // float prevValue;
-        public Renderer meshRenderer;
-        public Material sharedMaterial;
-        public GameObject shadedObject;
-        public InputField imageURL;
+        [SerializeField] private Renderer meshRenderer;
+        [SerializeField] private Material sharedMaterial;
+        [SerializeField] private GameObject texturedObject;
+        [SerializeField] private InputField imageURL;
         
-        public Slider paintSlider;
+        [SerializeField] private Slider paintSlider;
         
         private string TextureURL;
-        void Start()
-        {
-            //meshRenderer = shadedObject.GetComponent<MeshRenderer>();
-            //sharedMaterial = meshRenderer.sharedMaterial;
-           // sharedMaterial.shader = Shader.Find("Custom/OilPaint");
-            //value = sharedMaterial.GetFloat("_Radius");
-           // paintSlider.value = value;
-           //value = paintSlider.value;
-        }
+    
         
         void Update()
         {
             TextureURL = imageURL.text;
            
-            shadedObject.GetComponent<MeshRenderer>().sharedMaterial.SetFloat("_Radius", value);
+            texturedObject.GetComponent<Renderer>().sharedMaterial.SetFloat("_Radius", value);
             value = paintSlider.value;
+            Debug.Log(value);
         }
         
-        void  OnGUI() {
-            //value = GUI.HorizontalSlider(new Rect(50, 675, 180, 50), value, 0.0F, 10.0F);
-            
-
-        }
-
-       /*public void SetValue(float value)
-       {
-           value = paintSlider.value;
-           this.value = value;
-           Debug.Log(value);
-           if (meshRenderer != null)
-           {
-               sharedMaterial.shader = Shader.Find("Custom/OilPaint");
-               sharedMaterial.SetFloat("_Radius", this.value);
-               
-           }
-       }*/
 
         public void LoadImage()
         {
-            StartCoroutine(DownloadImage(TextureURL)); 
+            StartCoroutine(DownloadImage(TextureURL));
+            TextureURL = null;
+            Debug.Log("Image Loaded");
         }
         
+        public void Reset()
+        {
+            gameObject.GetComponent<Renderer>().material.mainTexture = null;
+            Debug.Log("Image Reset");
+        }
         IEnumerator DownloadImage(string TextureURL)
         {
             UnityWebRequest request = UnityWebRequestTexture.GetTexture(TextureURL);

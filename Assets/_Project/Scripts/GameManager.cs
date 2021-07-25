@@ -14,12 +14,14 @@ namespace OilPaint_JayeMoore
             if (Input.GetKey("escape"))
             {
                 Application.Quit();
+                Debug.Log("Application Quit");
             }
         }
 
         public void QuitApplication()
         {
             Application.Quit();
+            Debug.Log("Application Quit");
         }
 
         
