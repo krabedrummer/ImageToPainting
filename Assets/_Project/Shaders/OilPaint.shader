@@ -17,7 +17,7 @@
     #pragma fragment frag
     
     #include "UnityCG.cginc" // for UnityObjectToWorldNormal
-    #include "UnityLightingCommon.cginc" // for _LightColor0
+    //#include "UnityLightingCommon.cginc" // for _LightColor0
 
 	uniform sampler2D _MainTex;
 	uniform int _Radius;
@@ -27,7 +27,7 @@
 		float4 position : POSITION;
 		float4 uv : TEXCOORD0;
 		float4 screenPos : TEXCOORD1;	
-		fixed4 diff : COLOR0; // diffuse lighting color
+		//fixed4 diff : COLOR0; // diffuse lighting color
 		
 	};
 

@@ -26,3 +26,10 @@ RESET IMAGE - Resets the URL input field and removes the current loaded texture.
 QUIT - Quits application.
 
 Slider - Controls the number of Paint Strokes added to image. The more the slider is moved to the right, the more your image will look like a painting.
+
+
+OilPaint Shader
+
+The OildPaint Shader in the Shader folder uses the Kawahara algorithm to blur the indvidual pixels of the image creating a painted look.
+
+It is normally used as a screen space effect, but this has been converted to be used an Unlit Shader for meshes.
