@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c584e8e1-a81e-4eb8-b656-8dd68f98581d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/ScreenShotHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/Unity_Projects/Shadows2/Assets/Dynamic Soft Shadows Based on Local Cubemaps/Scripts/UnifiedShaderControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ScreenTextureBaker/Assets/ScreenTextureBaker/Editor/ScreenTextureBaker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/TakeScreenShot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/LoadTextureFromURL.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/_Project/Shaders/NormalMap.shader" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Shaders/CubeMapLighting.shader" />
+      <option value="$PROJECT_DIR$/Assets/_Project/LoadTextureFromUrl.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/LoadTexture.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/TakeScreenShot.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Shaders/OilPaint.shader" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ScreenShotHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/LoadTextureFromURL.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameManager.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1vl7KA3T5NFStSWRTDy9b2CRzdJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c584e8e1-a81e-4eb8-b656-8dd68f98581d" name="Default Changelist" comment="" />
+      <created>1627124755301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627124755301</updated>
+      <workItem from="1627124759410" duration="17631000" />
+      <workItem from="1627159695872" duration="1269000" />
+      <workItem from="1627161002659" duration="3667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
