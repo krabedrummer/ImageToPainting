@@ -11,7 +11,7 @@ namespace ImageToPainting_JayeMoore
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKey("escape"))
+            if (Input.GetKey("escape")) //Quit app from Escape
             {
                 Application.Quit();
                 Debug.Log("Application Quit");
@@ -20,7 +20,7 @@ namespace ImageToPainting_JayeMoore
 
         public void QuitApplication()
         {
-            Application.Quit();
+            Application.Quit(); // Quit app from UI BTN
             Debug.Log("Application Quit");
         }
 
