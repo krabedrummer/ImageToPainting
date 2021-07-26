@@ -24,7 +24,7 @@ namespace ImageToPainting_JayeMoore
         {
             TextureURL = imageURL.text; // get URL from text in input field
            
-            texturedObject.GetComponent<Renderer>().sharedMaterial.SetFloat("_Radius", value);// get the renderer of the Quad and get the material and its _Radius property value
+            texturedObject.GetComponent<Renderer>().sharedMaterial.SetFloat("_Radius", value); // get the renderer of the Quad and get the material and its _Radius property value
             value = paintSlider.value; // set value to slider value
            // Debug.Log(value);
         }
