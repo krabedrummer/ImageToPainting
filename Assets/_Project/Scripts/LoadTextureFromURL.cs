@@ -40,6 +40,7 @@ namespace ImageToPainting_JayeMoore
         public void Reset()
         {
             gameObject.GetComponent<Renderer>().material.mainTexture = null; // clear image
+            imageURL.text = null;
             Debug.Log("Image Reset");
         }
         IEnumerator DownloadImage(string TextureURL) //coroutine to download image from web 
