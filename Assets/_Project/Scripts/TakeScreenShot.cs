@@ -6,9 +6,9 @@ namespace ImageToPainting_JayeMoore
 {
     public class TakeScreenShot : MonoBehaviour
     {
-        public void takeShot()
+        public void takeShot() //function from BTN to take SS
         {
-            ScreenShotHandler.TakeScreenShot_Static(2048, 2048); //take sc of 2048 x 2048
+            ScreenShotHandler.TakeScreenShot_Static(2048, 2048); //take SS of 2048 x 2048
         }
     }
 }

@@ -42,7 +42,7 @@ namespace ImageToPainting_JayeMoore
             gameObject.GetComponent<Renderer>().material.mainTexture = null; // clear image
             Debug.Log("Image Reset");
         }
-        IEnumerator DownloadImage(string TextureURL)
+        IEnumerator DownloadImage(string TextureURL) //coroutine to download image from web 
         {
             UnityWebRequest request = UnityWebRequestTexture.GetTexture(TextureURL);  // web request for URL
             yield return request.SendWebRequest();

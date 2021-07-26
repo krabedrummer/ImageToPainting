@@ -2,6 +2,11 @@ README:
 
 This projects is a System or Tool that loads an image from the internet, applies a custom Oil Paint Shader, allows the user to adjust the desired amount of paint strokes, then saves the image to the Desktop.
 
+How does it work?
+
+An image is pulled from the web using UnityWebRequest. It is then applied as a texture to an instance of a material with a custom Oil Painting filter shader with the amount of paint strokes set to 0. The shader gets the value of the slider as it is moved, increasing or decreasing the amount of paint strokes applied to the image. A screen shot from a render texture created of the new filtered imaged can then be taken of the image and saved to the users desktop. Current saved images will be saved over if not moved to a new folder. The user may also reset the image and take another.
+
+
 Convert an Image from the Web into a painting.
 
 Type or paste a URL for an image in the Input Field.
