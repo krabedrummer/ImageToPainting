@@ -23,7 +23,7 @@ namespace ImageToPainting_JayeMoore
 
        
 
-        private void OnPostRender() //capture SS after current frame has been rendered //triggers every frame so needs a boolean
+        private void OnPostRender() //capture SS after current frame has been rendered 
         {
             if (takeScreenShotOnNextFrame)
             {
@@ -35,7 +35,7 @@ namespace ImageToPainting_JayeMoore
                 renderResult.ReadPixels(rect, 0, 0); //read rect
 
                 byte[] byteArray = renderResult.EncodeToPNG(); //save to png
-                //System.IO.File.WriteAllBytes(Application.dataPath + "/_Project/ScreenShots/CameraScreenShot.png", byteArray); //save to folder in project
+                //System.IO.File.WriteAllBytes(Application.dataPath + "/_Project/ScreenShots/CameraScreenShot.png", byteArray); 
                 System.IO.File.WriteAllBytes(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop) + "/CameraScreenShot.png", byteArray); //save to user desktop
                 Debug.Log("Saved camera screenshot"); //SS log
                 RenderTexture.ReleaseTemporary(renderTexture); //clean up and release render tex

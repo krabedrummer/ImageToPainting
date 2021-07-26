@@ -10,11 +10,11 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/_Project/Shaders/OilPaint.shader" />
-      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/TakeScreenShot.cs" />
-      <option value="$PROJECT_DIR$/Assets/_Project/Documentation/README.txt" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ScreenShotHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/_Project/Scripts/LoadTextureFromURL.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/TakeScreenShot.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Scripts/ScreenShotHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Project/Documentation/README.txt" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1voLRlYQYoBsmlAGRBJHqyDxEGg" />
@@ -37,6 +37,8 @@
       <updated>1627223489232</updated>
       <workItem from="1627223495571" duration="3704000" />
       <workItem from="1627229925506" duration="4811000" />
+      <workItem from="1627297067740" duration="648000" />
+      <workItem from="1627298307779" duration="40000" />
     </task>
     <servers />
   </component>
