@@ -13,7 +13,7 @@ Convert an Image from the Web into a painting.
 
 Type or paste a URL for an image in the Input Field.
 
-(ex: http://www.mysite.com/image.jpg)
+Test image URL: https://images.hdqwalls.com/download/united-arab-emirates-to-2048x2048.jpg
 
 Click LOAD IMAGE.
 
